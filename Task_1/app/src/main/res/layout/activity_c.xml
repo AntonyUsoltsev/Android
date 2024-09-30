@@ -27,13 +27,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="175dp"
-        android:layout_marginEnd="150dp"
+        android:layout_marginEnd="125dp"
+        android:rotationY="28"
         android:text="Это экран С!"
         android:textSize="48sp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.397" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="216dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="44dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/yellowboi"
+        app:srcCompat="@drawable/yellowboi"
+        tools:srcCompat="@drawable/yellowboi" />
 </androidx.constraintlayout.widget.ConstraintLayout>
