@@ -2,20 +2,19 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/main_b"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#78F66F"
-    tools:context=".MainActivity">
+    android:background="#E59BEF">
 
     <Button
-        android:id="@+id/button_a"
+        android:id="@+id/button_b"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="160dp"
-        android:text="Go to B"
+        android:text="Go to C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -24,12 +23,12 @@
         app:layout_constraintVertical_bias="0.567" />
 
     <TextView
-        android:id="@+id/text_a"
+        android:id="@+id/text_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginEnd="156dp"
-        android:text="Это экран A!"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="150dp"
+        android:text="Это экран B!"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
