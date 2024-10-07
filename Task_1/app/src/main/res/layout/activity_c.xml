@@ -2,20 +2,19 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/main_c"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9EE69B"
-    tools:context=".MainActivity">
+    android:background="#E2C67D">
 
     <Button
-        android:id="@+id/button_a"
+        android:id="@+id/button_c"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="160dp"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="160dp"
-        android:text="Go to B"
+        android:text="Go to A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -24,17 +23,32 @@
         app:layout_constraintVertical_bias="0.567" />
 
     <TextView
-        android:id="@+id/text_a"
+        android:id="@+id/text_c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="172dp"
-        android:layout_marginEnd="156dp"
-        android:text="Это экран A!"
+        android:layout_marginStart="175dp"
+        android:layout_marginEnd="125dp"
+        android:rotationY="28"
+        android:text="Это экран С!"
         android:textSize="48sp"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.397" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="216dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="44dp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/yellowboi"
+        app:srcCompat="@drawable/yellowboi"
+        tools:srcCompat="@drawable/yellowboi" />
 </androidx.constraintlayout.widget.ConstraintLayout>
