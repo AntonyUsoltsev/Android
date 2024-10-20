@@ -1,0 +1,7 @@
+<resources>
+    <declare-styleable name="CustomTheme">
+        <attr name="trackViewColor" format="color" />
+        <attr name="trackNameColor" format="color" />
+        <attr name="trackArtistColor" format="color" />
+    </declare-styleable>
+</resources>
