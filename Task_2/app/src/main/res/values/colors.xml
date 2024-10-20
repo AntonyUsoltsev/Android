@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="light_on_primary">#FFFFFF</color>
+    <color name="light_item">#F2E8D6</color>
+    <color name="light_track_name">#000000</color>
+    <color name="light_track_artist">#2B2D30</color>
+
+    <color name="dark_on_primary">#000000</color>
+    <color name="dark_item">#2B2D30</color>
+    <color name="dark_track_name">#E0E0E0</color>
+    <color name="dark_track_artist">#C1C5C5</color>
 </resources>
