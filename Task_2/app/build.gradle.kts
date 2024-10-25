@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "ru.nsu.usoltsev.task_2"
-        minSdk = 24
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

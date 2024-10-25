@@ -7,7 +7,7 @@
     <color name="light_track_artist">#2B2D30</color>
 
     <color name="dark_on_primary">#000000</color>
-    <color name="dark_item">#2B2D30</color>
-    <color name="dark_track_name">#E0E0E0</color>
-    <color name="dark_track_artist">#C1C5C5</color>
+    <color name="dark_item">#262E2F</color>
+    <color name="dark_track_name">#E2E2E2</color>
+    <color name="dark_track_artist">#C3C7C7</color>
 </resources>

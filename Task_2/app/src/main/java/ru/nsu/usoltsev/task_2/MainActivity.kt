@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
         val tracks = mutableListOf<Track>()
         for(i in 1..40) {
-            tracks.add(Track("Song $i", "Artist $i", R.drawable.white_sands))
+            tracks.add(Track("No Hay Ley $i", "Kali Uchis $i", R.drawable.track_image))
         }
         recyclerView.adapter = TrackAdapter(tracks)
     }

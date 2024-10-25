@@ -3,31 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="8dp"
-    android:layout_marginTop="8dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
     android:background="@drawable/rounded_list_item"
     android:gravity="center_vertical"
-    android:orientation="horizontal"
-    android:padding="16dp">
+    android:orientation="horizontal">
 
     <androidx.cardview.widget.CardView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="5dp"
-        app:cardCornerRadius="10dp">
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="12dp"
+        app:cardCornerRadius="8dp">
 
         <ImageView
             android:id="@+id/trackImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/white_sands" />
+            android:src="@drawable/track_image" />
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="44dp"
         android:layout_weight="1"
         android:orientation="vertical">
 
@@ -35,19 +34,23 @@
             android:id="@+id/trackTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif"
-            android:text="White sands"
+            android:fontFamily="@font/roboto"
+            android:letterSpacing="0.025"
+            android:lineHeight="20dp"
+            android:text="No Hay Ley"
             android:textColor="?attr/trackNameColor"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/trackArtist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Still corners"
+            android:fontFamily="@font/roboto"
+            android:letterSpacing="0.025"
+            android:lineHeight="20dp"
+            android:text="Kali Uchis"
             android:textColor="?attr/trackArtistColor"
-            android:textSize="16sp" />
+            android:textSize="14sp" />
     </LinearLayout>
 
 
@@ -55,8 +58,12 @@
         android:id="@+id/playIcon"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginEnd="5dp"
+        android:layout_marginStart="12dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="8dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/play" />
+        android:src="@drawable/ic_play" />
+
 </LinearLayout>
