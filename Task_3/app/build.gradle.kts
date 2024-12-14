@@ -36,7 +36,9 @@ android {
 }
 
 dependencies {
-
+    implementation (libs.squareup.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.androidx.recyclerview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
