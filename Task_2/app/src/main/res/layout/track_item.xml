@@ -6,6 +6,7 @@
     android:layout_marginLeft="16dp"
     android:layout_marginTop="16dp"
     android:layout_marginRight="16dp"
+    android:padding="12dp"
     android:background="@drawable/rounded_list_item"
     android:gravity="center_vertical"
     android:orientation="horizontal">
