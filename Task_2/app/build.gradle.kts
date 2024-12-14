@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "ru.nsu.usoltsev.task_2"
-        minSdk = 24
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -36,7 +36,7 @@ android {
 }
 
 dependencies {
-
+    implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

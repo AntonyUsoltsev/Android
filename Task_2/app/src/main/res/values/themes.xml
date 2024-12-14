@@ -1,8 +1,10 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
+
     <style name="Base.Theme.Task_2" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="trackViewColor">@color/light_item</item>
+        <item name="trackNameColor">@color/light_track_name</item>
+        <item name="trackArtistColor">@color/light_track_name</item>
     </style>
 
     <style name="Theme.Task_2" parent="Base.Theme.Task_2" />

@@ -1,7 +1,10 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
     <style name="Base.Theme.Task_2" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+        <item name="trackViewColor">@color/dark_item</item>
+        <item name="trackNameColor">@color/dark_track_name</item>
+        <item name="trackArtistColor">@color/dark_track_artist</item>
     </style>
+
+    <style name="Theme.Task_2" parent="Base.Theme.Task_2" />
 </resources>
