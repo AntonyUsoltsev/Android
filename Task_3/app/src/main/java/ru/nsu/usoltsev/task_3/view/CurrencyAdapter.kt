@@ -1,9 +1,7 @@
 package ru.nsu.usoltsev.task_3.view
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import ru.nsu.usoltsev.task_3.model.Currency
 

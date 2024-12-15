@@ -78,7 +78,10 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Введите сумму", Toast.LENGTH_SHORT).show()
             return
         }
-
+        if (amountText.toDoubleOrNull() == null) {
+            Toast.makeText(this, "Введите корректную сумму", Toast.LENGTH_SHORT).show()
+            return
+        }
         val amount = amountText.toDouble()
         val selectedCurrency = currencies.values.toList()[currencySpinner.selectedItemPosition]
         val result = amount / selectedCurrency.NormalizeValue
